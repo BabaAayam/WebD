@@ -1,0 +1,15 @@
+<form>
+  <h1 class="display-5 fw-bold text-black">Assignment-I</h1>
+  <div class="input">
+    <label>Enter email</label>
+    <input type="email" [(ngModel)]="email" name="email">
+  </div>
+  <div class="input">
+    <label>Password</label>
+    <input type="password" [(ngModel)]="password" name="password">
+  </div>
+  <div class="input">
+    <input type="submit" value="Login" (click)="LoginUser()">
+  </div>
+</form>
+    
